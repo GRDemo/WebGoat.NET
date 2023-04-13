@@ -34,7 +34,7 @@ namespace OWASP.WebGoat.NET
                 
                 return;
             }    
-            labelQuestion.Text = "Here is the question we have on file for you: <strong>" + result[0] + "</strong>";
+            //labelQuestion.Text = "Here is the question we have on file for you: <strong>" + result[0] + "</strong>";
             PanelForgotPasswordStep2.Visible = true;
             PanelForgotPasswordStep3.Visible = false;
             
